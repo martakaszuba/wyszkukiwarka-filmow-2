@@ -1,0 +1,75 @@
+
+* {
+    margin:0;
+    padding:0;
+    font-family: 'Lato', sans-serif;
+}
+
+.css-input { 
+   border-color:#cccccc; 
+   border-style:solid; 
+   padding:4px; 
+   font-size:19px; 
+   text-align:left; 
+   border-width:3px; 
+   border-radius:12px;  
+} 
+ .css-input:focus { outline:none; } 
+
+ #header {
+     height:80px;
+     background-color:black;
+     color:white;
+     text-align:center;
+     padding:20px;
+     box-sizing: border-box;
+ }
+
+ #search {
+    height:85px;
+    padding:20px;
+    text-align:center;
+    width:100%;
+ }
+
+ .item {
+  height:195px;
+  border:1px solid #cccccc;
+  width:80%;
+  margin:10px auto;
+ }
+
+ .img {
+     height:170px;
+ }
+
+ .one-third {
+     width:25%;
+     float:left;
+     padding:10px;
+     box-sizing: border-box;
+ }
+
+ .two-third {
+     width:73%;
+     float:right;
+ }
+
+ .name {
+     padding:15px 10px;
+ }
+
+ .rate {
+     font-size:20px;
+     padding:0 10px;
+ }
+
+ .count {
+     font-size:18px;
+     padding:15px 10px;
+ }
+
+ a {
+    text-decoration:none;
+    color:black;
+ }
