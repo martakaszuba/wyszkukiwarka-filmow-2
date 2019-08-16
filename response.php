@@ -5,7 +5,7 @@ $data = "%{$_POST['data']}%";
 $data = trim($data);
 $data = htmlspecialchars($data);
 
-if (strlen($data) <2){
+if (strlen($data) <=3){
     echo "err";
 }
 
