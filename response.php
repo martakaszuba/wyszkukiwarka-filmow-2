@@ -10,10 +10,10 @@ if (strlen($data) <=3){
 }
 
 else {
-    $host = "mysql.cba.pl";
-    $db_user = "filmy99";	
-    $db_password = "Pocahontas8899";
-    $db_name = "martakaszuba";
+    $host = "localhost";
+    $db_user = "marta99";	
+    $db_password = "";
+    $db_name = "films";
 
 $conn = new mysqli($host, $db_user, $db_password, $db_name);
     $conn->set_charset("utf8");
